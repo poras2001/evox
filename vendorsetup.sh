@@ -1,5 +1,5 @@
 # Device Tree
-git clone https://github.com/Evolution-X-Miatoll/android_device_xiaomi_sm6250-common.git -b udc device/xiaomi/sm6250-common
+git clone https://github.com/poras2001/android_device_xiaomi_sm6250-common -b udc device/xiaomi/sm6250-common
 
 # Vendor Tree
 git clone https://github.com/Evolution-X-Miatoll/android_vendor_xiaomi_miatoll.git -b udc vendor/xiaomi/miatoll
