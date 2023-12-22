@@ -16,6 +16,7 @@ $(call inherit-product, device/xiaomi/miatoll/device.mk)
 
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_USES_PICO_GAPPS := true
 
 # Device identifier
 PRODUCT_NAME := evolution_miatoll
