@@ -8,9 +8,9 @@ git clone https://github.com/Evolution-X-Miatoll/android_vendor_xiaomi_sm6250-co
 # Kernel Tree
 git clone https://github.com/clarencelol/kernel_xiaomi_sm6250 kernel/xiaomi/sm6250
 
-# MiuiCamera
-git clone https://gitlab.com/saikiran2001/proprietary_vendor_xiaomi_camera vendor/xiaomi/camera
-
+#Hardware
+rm -rf hardware/xiaomi
+git clone https://github.com/LineageOS/android_hardware_xiaomi/tree/lineage-21 -b lineage-21 hardware/xiaomi
 # ViPER4AndroidFX
 git clone https://github.com/Evolution-X-Miatoll/android_packages_apps_ViPER4AndroidFX.git -b master packages/apps/ViPER4AndroidFX
 
